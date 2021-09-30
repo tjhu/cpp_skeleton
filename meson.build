@@ -17,9 +17,8 @@ dependencies = []
 
 include_directories = []
 
-srcs = [
-  'main.cpp',
-]
+srcs = []
+subdir('src')
 
 executable(
   'cpp-skeleton',
